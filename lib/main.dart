@@ -7,7 +7,12 @@ void main() {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.red,
-          title: Text('Market'),
+          title: Text(
+              'فروشگاه من',
+              style: TextStyle(
+                fontFamily: 'iranyekan',
+              ),
+          ),
         ),
       ),
     )
