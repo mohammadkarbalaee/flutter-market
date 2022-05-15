@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
+import 'my_widget.dart';
+
 void main() {
   runApp(
     MaterialApp(
@@ -23,6 +25,7 @@ void main() {
               ),
           ),
         ),
+        body: MyWidget()
       ),
     )
   );
